@@ -1,3 +1,5 @@
+import { Navbar, Nav, Container } from "react-bootstrap";
+
 export const NavBar = () => {
     return (
         <Navbar expand="lg" className="bg-body-tertiary">
