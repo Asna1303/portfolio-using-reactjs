@@ -1,6 +1,7 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { useState } from "react";
 export const NavBar = () => {
+  const [activeLink, setActiveLink] = useState('home');
     return (
         <Navbar expand="lg">
         <Container>
