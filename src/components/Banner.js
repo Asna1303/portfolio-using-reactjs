@@ -1,7 +1,8 @@
 export const Banner = () => {
     return (
-       <section>
+       <section className="banner" id="home">
         
+
        </section> 
     )
 }
