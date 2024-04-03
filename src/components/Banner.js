@@ -5,6 +5,7 @@ import headerImg from "../assets/img/header-img.svg";
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
+    const [isDeleting, setIsDeleting] = useState(false);
     return (
        <section className="banner" id="home">
         <Container>
