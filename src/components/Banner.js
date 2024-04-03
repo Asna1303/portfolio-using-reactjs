@@ -6,7 +6,15 @@ export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
     const [isDeleting, setIsDeleting] = useState(false);
+    const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [text, setText] = useState('');
+    const period = 2000;
+    useEffect(()=>{
+        let ticker = setInterval(() => {
+            tick();
+          }, delta);
+      
+    })
     return (
        <section className="banner" id="home">
         <Container>
