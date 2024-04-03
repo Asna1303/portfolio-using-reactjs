@@ -6,6 +6,7 @@ export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const toRotate = [ "Web Developer", "Web Designer", "UI/UX Designer" ];
     const [isDeleting, setIsDeleting] = useState(false);
+    const [text, setText] = useState('');
     return (
        <section className="banner" id="home">
         <Container>
