@@ -4,6 +4,7 @@ export const Banner = () => {
         <Container>
             <Row className ="aligh-items-center">
                 <Col xs={12} md={6} xl={7}>
+                <span className="tagline">Welcome to my Portfolio</span>
                 </Col>
             </Row>
         </Container>
