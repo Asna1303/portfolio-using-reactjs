@@ -1,3 +1,5 @@
+import { ArrowRightCircle } from 'react-bootstrap-icons';
+
 export const Banner = () => {
     return (
        <section className="banner" id="home">
