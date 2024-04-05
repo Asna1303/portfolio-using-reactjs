@@ -16,7 +16,7 @@ export const Banner = () => {
           }, delta);
           return () => { clearInterval(ticker) };
         }, [text])
-    
+
     return (
        <section className="banner" id="home">
         <Container>
