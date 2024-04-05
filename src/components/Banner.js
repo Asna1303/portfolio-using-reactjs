@@ -9,6 +9,7 @@ export const Banner = () => {
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [text, setText] = useState('');
     const period = 2000;
+    const [index, setIndex] = useState(1);
 
     useEffect(()=>{
         let ticker = setInterval(() => {
