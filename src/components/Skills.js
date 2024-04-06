@@ -29,6 +29,9 @@ export const Skills = () => {
           <h2>Skills</h2>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
           <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+          <div className="item">
+          <img src={meter1} alt="Image" />
+            </div>
             </Carousel>
             </div>
 
