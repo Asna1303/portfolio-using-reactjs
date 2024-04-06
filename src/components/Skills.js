@@ -25,6 +25,13 @@ export const Skills = () => {
       <Container>
         <Row>
           <Col>
+          <div className="skill-bx">
+          <h2>Skills</h2>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+          <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
+            </Carousel>
+            </div>
+
           </Col>
         </Row>
       </Container>
