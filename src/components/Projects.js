@@ -41,6 +41,7 @@ export const Projects = () => {
             <Container>
                 <Row>
                     <Col>
+                    <h2>Projects</h2>
                     </Col>
                 </Row>
             </Container>
