@@ -8,7 +8,8 @@ export const Contact = () => {
         message: ''
       }
 
-      
+      const [formDetails, setFormDetails] = useState(formInitialDetails);
+      const [buttonText, setButtonText] = useState('Send');
     return (
 
     )
