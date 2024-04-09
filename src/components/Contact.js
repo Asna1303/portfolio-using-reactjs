@@ -7,6 +7,8 @@ export const Contact = () => {
         phone: '',
         message: ''
       }
+
+      
     return (
 
     )
