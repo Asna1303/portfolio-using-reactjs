@@ -17,7 +17,11 @@ export const Contact = () => {
           [category]: value
         })
     }
+    
     return (
-
+      <section className="contact" id="connect">
+      <Container>
+        </Container>
+</section>
     )
 }
